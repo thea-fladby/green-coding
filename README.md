@@ -1,4 +1,4 @@
-# Green Coding: Bridging Computing Education and Environmental Sustainability to increase Sense of Belonging
+# Green Coding: Bridging Computing Education and Environmental Sustainability to Increase Sense of Belonging
 
 ## Introduction
 
