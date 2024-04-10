@@ -235,6 +235,10 @@ nav .navElement:hover {
     font-weight: bold;
 }
 
+.emission-badge:hover {
+    transform: translateY(-5px);
+}
+
 /* EFFECT PAGE*/
 
 /* STEP BY STEP PAGE */
@@ -315,6 +319,77 @@ nav .navElement:hover {
 
 /* RESOURCES PAGE */
 
+.resource-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.resource {
+    padding: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.25s ease-in-out;
+}
+
+.resource:hover {
+    transform: translateY(-5px);
+}
+
+#books, #orgs {
+    background-color: #e6dbe3;
+}
+
+#articles, #jobs {
+    background-color: #b7ba96;
+}
+
+#tools, #newsletters {
+    background-color: #7494bc;
+}
+
+#frameworks, #gatherings {
+    background-color: #eba34c;
+}
+
+.resource-header {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .resource-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.resource-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 17px;
+}
+
+.resource-list li {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.resource-header,
+.resource-list li a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+    color: #1f1f1f;
+}
+
+.resource-list li a:hover {
+    text-decoration: underline;
+    color: #5d5d5d;
+}
+
 /* ABOUT PAGE */
 
 #aboutContainer {
@@ -322,7 +397,7 @@ nav .navElement:hover {
     justify-content: center;
     align-items: flex-start;
     gap: 50px;
-   padding: 0 0;
+   padding: 40px 0;
 }
 
 #about{
@@ -336,7 +411,7 @@ nav .navElement:hover {
 
 #aboutFigure {
     flex: 1;
-    margin-top: 70px;
+    margin-top: 40px;
     margin-left: 0;
     max-width: 400px;
 }
