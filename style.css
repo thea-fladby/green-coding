@@ -272,10 +272,12 @@ nav .navElement:hover {
 }
 
 
+
 .facts-container {
     position: relative;
     width: 100%;
     height: auto;
+    padding: 50px 0;/
 }
 
 .fact-bubble {
@@ -295,9 +297,7 @@ nav .navElement:hover {
 }
 
 .fact-bubble p {
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 40px;
+    padding: 30px 30px 30px;
 }
 
 .fact-bubble a {
@@ -323,6 +323,35 @@ nav .navElement:hover {
 .fact-bubble:nth-of-type(3) {
     top: 650px;
     left: 850px;
+}
+
+@media (max-width: 768px) {
+    .fact-bubble {
+        width: 80vw;
+        height: 80vw;
+        font-size: 5vw;
+        position: static;
+        margin: 20px auto;
+    }
+
+    .fact-bubble p {
+        padding: 6vw;
+    }
+
+    .fact-bubble a {
+        font-size: 4vw;
+    }
+
+    .facts-container {
+        padding: 0;
+    }
+
+    .fact-bubble:nth-of-type(1),
+    .fact-bubble:nth-of-type(2),
+    .fact-bubble:nth-of-type(3) {
+        top: auto;
+        left: auto;
+    }
 }
 
 /* STEP BY STEP PAGE */
