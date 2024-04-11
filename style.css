@@ -240,6 +240,90 @@ nav .navElement:hover {
 }
 
 /* EFFECT PAGE*/
+#didyouknow {
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+#whattodo {
+    font-size: 40px;
+}
+
+.solution-container {
+    font-size: 27px;
+    position: relative;
+    top: 1100px;
+    padding-bottom: 100px;
+}
+
+.quote-bubble {
+    padding: 20px;
+    width: 700px;
+    height: 170px;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 20px;
+    border-color: #7494bc;
+    padding-top: 20px;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+
+
+.facts-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.fact-bubble {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+    background-color: #dc6433;
+    color: #f1f3e9;
+    transition: transform 0.3s ease;
+}
+
+.fact-bubble p {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+}
+
+.fact-bubble a {
+    color: #f1f3e9;
+    font-size: 25px;
+}
+
+.fact-bubble a:hover {
+    color: #f1f3e9;
+    opacity: 50%;
+}
+
+.fact-bubble:nth-of-type(1) {
+    top: 0;
+    left: 40px;
+}
+
+.fact-bubble:nth-of-type(2) {
+    top: 300px;
+    left: 465px;
+}
+
+.fact-bubble:nth-of-type(3) {
+    top: 650px;
+    left: 850px;
+}
 
 /* STEP BY STEP PAGE */
  .steps-container {
