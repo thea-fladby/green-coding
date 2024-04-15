@@ -245,34 +245,6 @@ nav .navElement:hover {
     margin-top: 80px;
 }
 
-#whattodo {
-    font-size: 40px;
-}
-
-.solution-container {
-    font-size: 27px;
-    position: relative;
-    top: 1100px;
-    padding-bottom: 100px;
-}
-
-.quote-bubble {
-    padding: 20px;
-    width: 700px;
-    height: 170px;
-    border-style: solid;
-    border-width: 10px;
-    border-radius: 20px;
-    border-color: #7494bc;
-    padding-top: 20px;
-    text-align: center;
-    position: relative;
-    top: 30px;
-    left: 50px;
-}
-
-
-
 .facts-container {
     position: relative;
     width: 100%;
@@ -352,6 +324,60 @@ nav .navElement:hover {
         top: auto;
         left: auto;
     }
+}
+
+#whattodo {
+    font-size: 40px;
+}
+
+#actions {
+    margin-top: 100px;
+    margin-bottom: 80px;
+    text-align: center;
+    font-size: 45px;
+}
+
+.solution-container {
+    font-size: 27px;
+    position: relative;
+    top: 1100px;
+    padding-bottom: 100px;
+}
+
+.action-bubble {
+    padding: 20px;
+    width: 700px;
+    height: 300px;
+    background-color: #7494bc;
+    color: #f1f3e9;
+    border-radius: 20px;
+    padding-top: 20px;
+    text-align: center;
+    position: relative;
+}
+.action-header {
+    font-size: 30px;
+    margin: 0 0 20px;
+}
+
+.action-bubble p {
+    font-size: 24px;
+}
+
+.action-bubble:nth-of-type(1) {
+    top: 0;
+    left: 40px;
+}
+
+.action-bubble:nth-of-type(2) {
+    top: 80px;
+    left: 265px;
+}
+
+.action-bubble:nth-of-type(3) {
+    top: 165px;
+    left: 600px;
+    margin-bottom: 200px;
 }
 
 /* STEP BY STEP PAGE */
